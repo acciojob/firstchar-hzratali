@@ -1,11 +1,7 @@
 function firstChar(text) {
   // your code here
-	for (let char of text) {
-		if (char !== ' ') {
-			return char;
-		}
-	}
-	return '';
+	text.trim();
+	return text[0];
 }
 
 // Do not change the code below
